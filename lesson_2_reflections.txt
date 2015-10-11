@@ -6,3 +6,15 @@ The staging area is kind of where you put things before you have fully decided w
 
 How can you use the staging area to make sure you have one commit per logical change?
 If you have two separate changes in two separate files then you can add one of them to the staging area and then commit that, and then you would add the next one to the staging area and then commit that. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be useful when you want to make a change down a certain direction, but also want to keep the original file so that you can keep making changes to that.
+
+How do the diagrams help you visualize the branch structure?
+Not much better than the branch diagram does in git, or I can do in my head
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of the merge is that the master branch now contains code from both the master branch and the coins branch. It is represented that way because that is the most obvious way of representing it. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging is quicker, always doing it manually takes longer but you will know that you are merging the way you want.
